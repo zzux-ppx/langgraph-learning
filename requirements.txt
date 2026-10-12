@@ -1,0 +1,5 @@
+# 核心：langgraph 1.x（自带 langgraph-checkpoint，含 InMemorySaver）
+langgraph>=1.2
+
+# 可选：接入真实 OpenAI 兼容 LLM 时安装（不装则综合项目使用内置 Mock）
+# langchain-openai>=0.3
